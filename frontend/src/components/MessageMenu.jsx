@@ -18,10 +18,11 @@ const MessageMenu = () => {
     setError(null);
     try {
       const data = await getUnreadMessages();
-      setMessages(data);
+      setMessages(Array.isArray(data) ? data : []);
     // eslint-disable-next-line no-unused-vars
     } catch (err) {
       setError("Error al cargar los mensajes");
+      setMessages([]);
     } finally {
       setLoading(false);
     }

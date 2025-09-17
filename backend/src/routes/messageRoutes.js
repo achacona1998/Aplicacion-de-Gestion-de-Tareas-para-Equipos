@@ -12,7 +12,10 @@ router.post('/', messageController.createMessage);
 // Obtener todos los mensajes de un usuario
 router.get('/recipient/:userId', messageController.getMessagesByRecipient);
 
-// Obtener mensajes no leídos de un usuario
+// Obtener mensajes no leídos del usuario autenticado
+router.get('/unread', messageController.getUnreadMessages);
+
+// Obtener mensajes no leídos de un usuario específico (para compatibilidad)
 router.get('/unread/:userId', messageController.getUnreadMessages);
 
 // Marcar un mensaje como leído

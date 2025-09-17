@@ -1,5 +1,4 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import RoutesApp from "./routes";
 import AppRoutes from "./routes/AppRoutes";
 
 function App() {
