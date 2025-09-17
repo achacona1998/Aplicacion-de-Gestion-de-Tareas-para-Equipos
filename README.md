@@ -223,14 +223,11 @@ La aplicación estará disponible en `http://localhost:5173` y la API en `http:/
 4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`)
 5. Abre un Pull Request
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ## Contacto
 
 Para cualquier consulta o sugerencia, no dudes en contactar:
 
-- **Email**: tu-email@ejemplo.com
-- **GitHub**: [tu-usuario](https://github.com/tu-usuario)
-- **LinkedIn**: [Tu Nombre](https://linkedin.com/in/tu-perfil)
+- **Email**: achacona1998@gmail.com
+- **GitHub**: [achacona1998](https://github.com/achacona1998)
+- **LinkedIn**: [Ariel Chacon Artola](https://www.linkedin.com/in/ariel-chacon-artola-7a00bb2b4/)
