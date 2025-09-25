@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest test/unit test/models",
+    "test:integration": "jest test/integration test/controllers",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -23,6 +27,9 @@
     "mysql2": "^3.14.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "@types/jest": "^30.0.0",
+    "jest": "^30.1.3",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.4"
   }
 }

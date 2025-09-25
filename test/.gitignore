@@ -1,0 +1,88 @@
+# Test Coverage Reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Jest Cache
+.jest/
+jest-cache/
+
+# Test Results
+test-results/
+test-report.xml
+junit.xml
+
+# Temporary Test Files
+*.tmp
+*.temp
+.test-*
+
+# Test Databases
+test.db
+test.sqlite
+*.test.db
+
+# Test Logs
+test-logs/
+*.test.log
+
+# Node Modules (if tests have separate dependencies)
+node_modules/
+
+# Environment Files for Testing
+.env.test.local
+.env.test
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test Screenshots/Videos (for E2E tests)
+screenshots/
+videos/
+test-screenshots/
+test-videos/
+
+# Playwright specific
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Cypress specific
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Storybook build outputs
+storybook-static/
+
+# Visual regression test outputs
+__image_snapshots__/__diff_output__/
+visual-regression-tests/
+
+# Performance test results
+performance-results/
+lighthouse-reports/
+
+# Mock data files (if they contain sensitive info)
+# mock-data/sensitive/
+
+# Backup files
+*.bak
+*.backup
+
+# Lock files (if using different package manager than root)
+# yarn.lock
+# pnpm-lock.yaml

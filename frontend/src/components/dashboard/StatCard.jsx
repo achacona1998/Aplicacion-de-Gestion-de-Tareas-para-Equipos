@@ -16,6 +16,7 @@ const StatCard = ({ title, stat, icon, id, taskSelected, setTaskSelected }) => {
 
   return (
     <div
+      role="button"
       className={`flex flex-col justify-between p-4 rounded-lg shadow-md cursor-pointer transition-all duration-300 ${isSelected ? 'bg-blue-50 border-l-4 border-blue-700' : 'bg-white hover:bg-gray-50'}`}
       onClick={() => setTaskSelected(id)}
     >
