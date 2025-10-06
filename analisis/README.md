@@ -1,6 +1,5 @@
 # Análisis y Diseño de Sistema de Gestión de Tareas para Equipos
 
-<<<<<<< HEAD
 ## Ver Historias de Usuario
 
 https://github.com/users/achacona1998/projects/14/views/1
