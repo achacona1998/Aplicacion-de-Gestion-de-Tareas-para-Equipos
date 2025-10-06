@@ -1,5 +1,6 @@
 # Análisis y Diseño de Sistema de Gestión de Tareas para Equipos
 
+<<<<<<< HEAD
 ## Ver Historias de Usuario
 
 https://github.com/users/achacona1998/projects/14/views/1
@@ -8,6 +9,12 @@ https://github.com/users/achacona1998/projects/14/views/1
 
 https://github.com/achacona1998/Aplicacion-de-Gestion-de-Tareas-para-Equipos/tree/main/analisis/Dise%C3%B1o
 
+=======
+##Ver Historias de Usuario
+
+https://github.com/users/achacona1998/projects/14/views/1
+
+>>>>>>> 603e9fa071bd8585e1c49fdbcad4e60ed7b3c544
 ## Introducción
 
 Este documento presenta el **análisis, diseño y especificaciones técnicas** para el desarrollo de una aplicación web de gestión de tareas orientada a equipos de trabajo. El sistema propuesto busca optimizar la colaboración, seguimiento de proyectos y productividad mediante una plataforma integral que combine gestión de tareas, visualización de datos y herramientas de comunicación.
